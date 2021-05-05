@@ -1,0 +1,78 @@
+.main-container {
+  margin: 0% 15%;
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.furniture {
+  border: 1px solid #ffffff;
+  width: 30%;
+  padding: 80px 28px 0px 0px;
+  width: 322px;
+  height: 368px;
+  font-family: "Mr Eaves XL Modern", sans-serif;
+  vertical-align: baseline;
+  cursor: pointer;
+  text-align: center;
+  line-height: 16px;
+
+  text-transform: capitalize;
+}
+
+.furniture-name {
+  color: #494848;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 6px;
+  padding-top: 18px;
+}
+.furniture-details {
+  display: grid;
+}
+
+.furniture-tags {
+  font-size: 13px;
+  font-style: normal;
+  color: #999999;
+  padding-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.furniture-price {
+  padding-top: 12px;
+}
+
+.furniture > img {
+  width: 297px;
+  height: 297px;
+}
+
+.furniture-search {
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  height: auto;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 15.7px;
+  width: 600px;
+  height: 38px;
+}
+
+.furniture-filter {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.furniture-filter-sort {
+  margin-left: 25px;
+  vertical-align: middle;
+  display: inline-grid;
+}
+
+::placeholder {
+  padding-left: 15px;
+  font: #ccc;
+}
